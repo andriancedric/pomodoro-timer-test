@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 
 :root {
   --background: 240 10% 3.9%;
@@ -41,7 +41,7 @@
 
   body {
     @apply antialiased bg-gradient-to-b from-[hsl(var(--blue-gradient-start))] to-[hsl(var(--blue-gradient-end))] text-foreground min-h-screen;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
   }
 
   html, body, #root {
